@@ -63,3 +63,22 @@ O pipeline segue esta sequência:
 - **JSON:** armazenamento dos dados brutos na camada Bronze.
 - **Logging:** registro de informações e erros durante a execução.
 - **Pathlib:** manipulação dos caminhos e diretórios do projeto.
+
+## Resultados do projeto ✅  
+
+Após a execução do pipeline, foram obtidos os seguintes resultados:
+
+- **77 séries:** dados extraídos e processados com sucesso.
+- **20 gêneros:** gêneros únicos identificados na base.
+- **214 relacionamentos:** associações entre séries e gêneros.
+
+### Validação dos dados
+
+Foram realizadas verificações para garantir a qualidade e a consistência dos dados:
+
+- Integridade referencial entre as tabelas.
+- Ausência de relacionamentos duplicados entre séries e gêneros.
+- Comparação dos identificadores entre as camadas Silver e Gold.
+- Verificação de valores ausentes.
+
+Os valores ausentes em campos como data de encerramento e duração foram preservados, evitando o preenchimento de informações sem fundamento.
