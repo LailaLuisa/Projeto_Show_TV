@@ -1,0 +1,36 @@
+
+# Ambiente virtual
+name-geo/
+venv/
+.venv/
+
+#Arquivo de testes
+scripts/testes.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configurações de IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+
+# Arquivos temporários
+*.tmp
+*.bak
