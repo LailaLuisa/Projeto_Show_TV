@@ -64,6 +64,12 @@ O pipeline segue esta sequência:
 - **Logging:** registro de informações e erros durante a execução.
 - **Pathlib:** manipulação dos caminhos e diretórios do projeto.
 
+## Fonte dos dados e escopo da extração
+- Fonte: API pública TVmaze.
+- Intervalo consultado: IDs de 1 a 79.
+- Registros obtidos: 77 séries.
+- IDs 17 e 36: não encontrados na API (HTTP 404).
+
 ## Resultados do projeto ✅  
 
 Após a execução do pipeline, foram obtidos os seguintes resultados:
