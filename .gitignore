@@ -1,11 +1,7 @@
 
 # Ambiente virtual
-name-geo/
 venv/
 .venv/
-
-#Arquivo de testes
-scripts/testes.py
 
 # Python
 __pycache__/
